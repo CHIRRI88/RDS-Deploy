@@ -59,6 +59,8 @@
             font-weight: 600;
             transition: transform 0.2s, box-shadow 0.2s;
             box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+            border: none;
+            cursor: pointer;
         }
         
         .download-btn:hover {
@@ -72,6 +74,9 @@
             color: #999;
             font-size: 11px;
             text-decoration: none;
+            background: none;
+            border: none;
+            cursor: pointer;
         }
         
         .uninstall-link:hover {
@@ -139,19 +144,15 @@
         <h1>Remote Access Setup</h1>
         <p class="subtitle">Quick Setup Tool</p>
         
-        <a href="https://github.com/CHIRRI88/RDS-Deploy/releases/download/v1.0/Install-BV-Remote.bat" 
-           class="download-btn" 
-           download>
+        <button onclick="downloadFile('Install-BV-Remote.bat')" class="download-btn">
             ⬇️ Download Setup Tool
-        </a>
+        </button>
         
         <br>
         
-        <a href="https://github.com/CHIRRI88/RDS-Deploy/releases/download/v1.0/Uninstall-BV-Remote.bat" 
-           class="uninstall-link" 
-           download>
+        <button onclick="downloadFile('Uninstall-BV-Remote.bat')" class="uninstall-link">
             Uninstall Tool
-        </a>
+        </button>
         
         <div class="instructions">
             <h2>Instructions:</h2>
@@ -174,5 +175,28 @@
         
         <p class="footer">IT Department</p>
     </div>
+
+    <script>
+        async function downloadFile(filename) {
+            const baseUrl = 'https://raw.githubusercontent.com/CHIRRI88/RDS-Deploy/main/';
+            const url = baseUrl + filename;
+            
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Download failed');
+                }
+                const blob = await response.blob();
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = filename;
+                link.click();
+                URL.revokeObjectURL(link.href);
+            } catch (error) {
+                alert('Download failed. Please try again or contact IT.');
+                console.error('Download error:', error);
+            }
+        }
+    </script>
 </body>
 </html>
