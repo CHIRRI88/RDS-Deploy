@@ -14,7 +14,7 @@ echo   - Stored credentials
 echo.
 pause
 
-powershell -ExecutionPolicy Bypass -Command "& { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex (irm 'https://raw.githubusercontent.com/CHIRRI88/chirri-rds-deploy/main/Uninstall-BV-Remote-Encrypted.ps1') }"
+powershell -ExecutionPolicy Bypass -Command "& { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex (irm 'https://raw.githubusercontent.com/CHIRRI88/RDS-Deploy/main/Uninstall-BV-Remote-Encrypted.ps1') }"
 
 echo.
 echo ========================================

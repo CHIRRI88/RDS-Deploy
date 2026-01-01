@@ -1,17 +1,17 @@
 Resource                      GitHub URL
                               
-Repository                    https://github.com/CHIRRI88/chirri-rds-deploy
+Repository                    https://github.com/CHIRRI88/RDS-Deploy
                               
-Landing Page                  https://chirri88.github.io/chirri-rds-deploy/
+Landing Page                  https://chirri88.github.io/RDS-Deploy/
                               
-Install Script (encrypted)    https://raw.githubusercontent.com/CHIRRI88/chirri-rds-deploy/main/Install-BV-Remote-Encrypted.ps1
+Install Script (encrypted)    https://raw.githubusercontent.com/CHIRRI88/RDS-Deploy/main/Install-BV-Remote-Encrypted.ps1
                               
-Uninstall Script (encrypted)  https://raw.githubusercontent.com/CHIRRI88/chirri-rds-deploy/main/Uninstall-BV-Remote-Encrypted.ps1
+Uninstall Script (encrypted)  https://raw.githubusercontent.com/CHIRRI88/RDS-Deploy/main/Uninstall-BV-Remote-Encrypted.ps1
                               
-Install .bat                  https://github.com/CHIRRI88/chirri-rds-deploy/releases/download/v1.0/Install-BV-Remote.bat
+Install .bat                  https://github.com/CHIRRI88/RDS-Deploy/releases/download/v1.0/Install-BV-Remote.bat
                               
-Uninstall .bat                https://github.com/CHIRRI88/chirri-rds-deploy/releases/download/v1.0/Uninstall-BV-Remote.bat
+Uninstall .bat                https://github.com/CHIRRI88/RDS-Deploy/releases/download/v1.0/Uninstall-BV-Remote.bat
                               
-Icon 1                        https://raw.githubusercontent.com/CHIRRI88/chirri-rds-deploy/main/BV-Server1.ico
+Icon 1                        https://raw.githubusercontent.com/CHIRRI88/RDS-Deploy/main/BV-Server1.ico
                               
-Icon 2                        https://raw.githubusercontent.com/CHIRRI88/chirri-rds-deploy/main/BV-Server2.ico
+Icon 2                        https://raw.githubusercontent.com/CHIRRI88/RDS-Deploy/main/BV-Server2.ico
