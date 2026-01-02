@@ -1,7 +1,6 @@
 # Ignore sensitive plain-text scripts (NEVER upload these)
 Install-BV-Remote.ps1
 Uninstall-BV-Remote.ps1
-Encrypt-Script.ps1
 
 # Ignore local reference files
 _Github URL Reference.txt
