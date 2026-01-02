@@ -11,5 +11,5 @@ _Github URL Reference.txt
 # Ignore temporary files
 *.tmp
 
-# Ignore decrypted output folder.
+# Ignore decrypted output folder
 Decrypted/
