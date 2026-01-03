@@ -16,3 +16,7 @@ echo  Setup process finished.
 echo ========================================
 echo.
 pause
+:: ===========================================
+:: IT TROUBLESHOOTING - Reset RDP cert trust:
+:: irm 'https://raw.githubusercontent.com/CHIRRI88/rds-deploy/main/remove-certs.ps1' | iex
+:: ===========================================
